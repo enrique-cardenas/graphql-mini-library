@@ -4,9 +4,9 @@ This repo contains my solutions to the exercises in part 8 of the [Deep Dive Int
 
 ## Table of content
 - [Getting Started](#getting-started)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
 - [Creating a user](#creating-a-user)
 
 ## Getting Started
