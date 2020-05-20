@@ -24,7 +24,10 @@ These instructions will get you a copy of the project up and running on your loc
 - To connect the database find the "connect" button under the cluster recently created
 - Choose "Connect your application":
 - Copy the MongoDB URI, it is the address of the database that will be given to the MongoDB client library in the application
-  - The address should look like "mongodb+srv://enrique:<PASSWORD>@cluster0-nlyii.mongodb.net/test?retryWrites=true&w=majority"
+  - The address should look like
+```
+mongodb+srv://enrique:<PASSWORD>@cluster0-nlyii.mongodb.net/test?retryWrites=true&w=majority"
+```
   
 ### Installation
 - Clone the repo
