@@ -4,10 +4,10 @@ This repo contains my solutions to the exercises in part 8 of the [Deep Dive Int
 
 ## Table of content
 - [Getting Started](#getting-started)
-- [Prerequisites](prerequisites)
-- [Installation](installation)
-- [Usage](usage)
-- [Creating a user](creating-a-user)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Creating a user](#creating-a-user)
 
 ## Getting Started
 
@@ -30,11 +30,11 @@ mongodb+srv://enrique:<PASSWORD>@cluster0-nlyii.mongodb.net/test?retryWrites=tru
 ```
   
 ### Installation
-- Clone the repo
+- Open a terminal window and clone the repo
 ```
 git clone git@github.com:enrique-cardenas/graphql-mini-library.git
 ```
-- Open a terminal window and cd into the server directory
+- cd into the server directory
 ```
 cd server
 ```
@@ -67,7 +67,7 @@ cd client
 npm start
 ```
 Open a browser and enter "http://localhost:3000/" in the URL
-### Creating a user
+## Creating a user
 To add authors and books you must login. In order to login you must create a user into the database
 There is currently no client code for creating a user, but you could create a user with the following instructions
 1. Open a browser and enter "http://localhost:4000/graphql" in the URL
