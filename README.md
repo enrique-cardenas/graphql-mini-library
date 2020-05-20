@@ -2,6 +2,12 @@
 
 This repo contains my solutions to the exercises in part 8 of the [Deep Dive Into Modern Web Development](https://fullstackopen.com/en/) course. 
 
+## Table of content
+- [Getting Started](#getting-started)
+- [Prerequisites](prerequisites)
+- [Installation](installation)
+- [Usage](usage)
+- [Creating a user](creating-a-user)
 
 ## Getting Started
 
@@ -74,9 +80,3 @@ There is currently no client code for creating a user, but you could create a us
     }
   }
 ```
-
-
-
-
-
-
