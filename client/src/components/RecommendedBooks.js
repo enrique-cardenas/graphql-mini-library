@@ -1,20 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useQuery } from '@apollo/client'
 
 import { ME } from '../queries'
 
-const Books = ( { show, books } ) => {
+const RecommendedBooks = ( { show, books, loggedIn } ) => {
   const result = useQuery(ME)
- 
-  if (!show) {
+  
+  if (!show || !loggedIn) {
     return null
   }
   if(result.loading){
     return <div>loading...</div>
   }
-  
-  console.log(result)
-
   const favoriteGenre = result.data.me.favoriteGenre
   const booksToShow = books.filter(book => book.genres.includes(favoriteGenre))
 
@@ -47,4 +44,4 @@ const Books = ( { show, books } ) => {
   )
 }
 
-export default Books
+export default RecommendedBooks

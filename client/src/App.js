@@ -65,6 +65,9 @@ const App = () => {
 
   const logout = () => {
     setToken(null)
+    if(page === 'add' || page === 'recommended'){
+      setPage('authors')
+    }
     localStorage.clear()
     client.resetStore()
   }
@@ -99,6 +102,7 @@ const App = () => {
       <RecommendedBooks
         show={page === 'recommended'}
         books={books_result.data.allBooks}
+        loggedIn={token ? true : false}
       />
 
       <Login 
